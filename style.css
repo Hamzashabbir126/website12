@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 80%;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  color: #000000;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #444;
+  color: white;
+  border-radius: 15px;
+  width: 83px;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 16px;
+}
+
+#heading1 h1 {
+  text-align: center;
+  color: #34389d;
+}
+
+.heading2 h1 {
+  text-align: center;
+  color: #34389d;
+}
+
+.container {
+  display: flex;
+}
+
+.section1 {
+  justify-content righ: 33px;
+  align-items: center;
+  width: 40%;
+  height: 500px;
+  background-color: #3939a2;
+  color: white;
+}
+
+#head h3 {
+  text-align: center;
+  color: #ffffff;
+  background-color: gray;
+  margin-top: -1px;
+  margin-left: 25%;
+  padding: 17px;
+  width: 35%;
+  height: 14%;
+}
+
+.para p {
+  line-height: 1.9;
+  padding: 33px;
+}
+
+.section2 img {
+  width: 151%;
+  height: 500px;
+
+}
+
+.slider {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+}
+
+.slide {
+  flex: 0 0 25%;
+  /* Display 4 slides at a time */
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+#heading2 {
+  text-align: center;
+  color: blue
+}
+
+.content-section5 {
+  width: 50%;
+  float: left;
+  line-height: 2.5;
+  padding: 20px;
+  box-sizing: border-box;
+  font-weight: 600;
+  margin-top: 33px;
+}
+
+.content-section5 h2 {
+  color: #050505;
+  text-align: center;
+  line-height: 1.9;
+}
+
+.image-section1 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
+.image-section1 img {
+  width: 50%;
+  height: 300px;
+  margin-left: 165px;
+  margin-top: 203px;
+  border-radius: 14px;
+}
+
+.image-section2 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.image-section2 img {
+  width: 50%;
+  height: 300px;
+  margin-left: 165px;
+  margin-top: -33px;
+  border-radius: 14px;
+}
+
+/* Clearfix to contain floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content-section1 {
+  width: 50%;
+  float: left;
+  line-height: 1.9;
+  padding: 20px;
+  box-sizing: border-box;
+  font-weight: 600;
+  margin-left: 544px;
+  margin-top: -623px;
+  font size: 140px;
+}
+
+
+.image-section3 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
+.image-section3 img {
+  width: 50%;
+  height: 400px;
+  margin-top: 103px;
+  margin-left: 63px;
+  border-radius: 12px;
+
+}
+
+/* Clearfix to contain floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#hed {
+  color: #2a2a89;
+  text-align: center;
+}
+
+.image-section {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content-section {
+  width: 50%;
+  height: 450px;
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #393f9d;
+  margin-top: 5px;
+}
+
+
+
+.h3 {
+  color: #2b2bbf;
+  text-align: center;
+
+}
+
+
+
+.content-section {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  line-height: 2.1;
+}
+
+.section33 {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-container img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.center-image {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.h33 {
+  color: #2a2a89;
+  text-align: center;
+}
+
+
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-section img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 12px;
+
+}
+
+.content-section23 {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  line-height: 2.1;
+}
